@@ -5,6 +5,7 @@ class Animal:
     def hi(self):
         # Don't worry too much about this part
         print(f"Hi, I am a {type(self).__name__}.  {self.noise}")
+        print("Hello")
 
 
 # An example class representing a bird
